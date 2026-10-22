@@ -31,7 +31,7 @@ Otherwise tell the user the one command for their agent, then ask them to sign i
 | Codex | `codex mcp add epictexting --url https://www.epictexting.app/api/mcp/mcp` then `codex mcp login epictexting` |
 | Gemini CLI | `gemini mcp add -t http epictexting https://www.epictexting.app/api/mcp/mcp` then `/mcp auth epictexting` |
 | OpenClaw | `openclaw mcp add epictexting --url https://www.epictexting.app/api/mcp/mcp --transport streamable-http` then `openclaw mcp login epictexting` |
-| Hermes | add `epictexting: {url: "https://www.epictexting.app/api/mcp/mcp", auth: oauth}` under `mcp_servers` in `~/.hermes/config.yaml`, then `hermes mcp login epictexting` |
+| Hermes | `hermes mcp add epictexting --url https://www.epictexting.app/api/mcp/mcp --auth oauth` then `hermes mcp login epictexting` |
 | Cursor / Claude.ai / ChatGPT | add a custom MCP connector with the URL above |
 
 A free account works to start: https://www.epictexting.app/?ref=agent-skill
