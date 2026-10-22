@@ -1,0 +1,11 @@
+{
+  "name": "epictexting",
+  "version": "1.0.0",
+  "description": "Let your AI agent send text messages from your own Twilio number: one SMS or a personalised bulk text to up to 50 people, with delivery status.",
+  "mcpServers": {
+    "epictexting": {
+      "httpUrl": "https://www.epictexting.app/api/mcp/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

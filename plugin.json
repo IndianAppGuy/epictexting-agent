@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "epictexting",
+  "version": "1.0.0",
+  "description": "Let your AI agent send text messages from your own Twilio number: one SMS or a personalised bulk text to up to 50 people, with delivery status.",
+  "author": {
+    "name": "IndianAppGuy",
+    "email": "support@magicslides.app",
+    "url": "https://github.com/IndianAppGuy"
+  },
+  "homepage": "https://www.epictexting.app",
+  "repository": "https://github.com/IndianAppGuy/epictexting-agent",
+  "license": "MIT",
+  "logo": "./assets/logo.png",
+  "keywords": [
+    "sms",
+    "twilio",
+    "text-message",
+    "bulk-sms",
+    "messaging"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "EpicTexting",
+        "shortDescription": "Send SMS from Your AI Agent (T",
+        "longDescription": "Your agent sends the text. EpicTexting sends SMS from your own Twilio number: one message or a personalised bulk text, with delivery status and replies.",
+        "developerName": "IndianAppGuy",
+        "category": "Productivity",
+        "websiteURL": "https://www.epictexting.app",
+        "supportURL": "https://www.epictexting.app/support",
+        "privacyPolicyURL": "https://www.epictexting.app/privacy",
+        "termsOfServiceURL": "https://www.epictexting.app/terms",
+        "defaultPrompt": [
+          "Text +1 415 555 0134: running 10 minutes late, see you at 6:10."
+        ],
+        "brandColor": "#111111",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

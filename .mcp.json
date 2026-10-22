@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "epictexting": {
+      "type": "http",
+      "url": "https://www.epictexting.app/api/mcp/mcp"
+    }
+  }
+}

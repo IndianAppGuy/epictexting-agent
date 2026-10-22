@@ -1,0 +1,26 @@
+{
+  "name": "epictexting",
+  "displayName": "EpicTexting",
+  "version": "1.0.0",
+  "description": "Let your AI agent send text messages from your own Twilio number: one SMS or a personalised bulk text to up to 50 people, with delivery status.",
+  "author": {
+    "name": "IndianAppGuy",
+    "email": "support@magicslides.app",
+    "url": "https://github.com/IndianAppGuy"
+  },
+  "homepage": "https://www.epictexting.app/?ref=claude-code",
+  "repository": "https://github.com/IndianAppGuy/epictexting-agent",
+  "license": "MIT",
+  "keywords": [
+    "sms",
+    "twilio",
+    "text-message",
+    "bulk-sms",
+    "messaging"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://www.epictexting.app/blog/send-sms-from-claude",
+  "supportUrl": "https://www.epictexting.app/support",
+  "privacyPolicyUrl": "https://www.epictexting.app/privacy",
+  "termsOfServiceUrl": "https://www.epictexting.app/terms"
+}
